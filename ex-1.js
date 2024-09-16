@@ -10,6 +10,7 @@ let additionalProperties = {
   photo: "https://placedog.net/500",
   hobbies: ["Football", "Coding"],
 };
+let newStudentProfile = {...studentProfile, ...additionalProperties}
 
 // Start coding here
 
